@@ -35,7 +35,7 @@ body {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .flex-item {
@@ -43,11 +43,12 @@ body {
     margin: 5px;
     color: #6f6f6f;
     font-size: 5em;
-    flex: 1 0 auto;
+    flex: 1;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid;
 }
 
 .flex-item:before {
